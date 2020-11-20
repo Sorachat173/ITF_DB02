@@ -24,6 +24,9 @@
       <th width="150">
         <div align="center">Link </div>
       </th>
+      <th>
+        <div align='center'>action</div>
+      </th>
     </tr>
     <?php
     while ($Result = mysqli_fetch_array($res)) {
@@ -33,6 +36,7 @@
         </td>
         <td><?php echo $Result['Comment']; ?></td>
         <td><?php echo $Result['Link']; ?></td>
+        <td><a href="delete.php?ID=<?php echo $Result['ID'];?>">Delete</a></td>
       </tr>
     <?php
     }
