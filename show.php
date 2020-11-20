@@ -41,6 +41,7 @@
   <?php
   mysqli_close($conn);
   ?>
+  <button><a href="form.html">Add user</a></button>
 </body>
 
 </html>
