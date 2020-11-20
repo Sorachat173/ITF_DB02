@@ -20,7 +20,7 @@
 <body>
   <form action = "update.php" method = "post" >
   <input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
-    Name:<br>
+    <br>Name:<br>
     <input type="text" name = "name" id="idName" placeholder="Enter Name" value="<?php echo $data['Name']; ?>"> <br>
     Comment:<br>
     <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"><?php echo $data['Comment']; ?></textarea><br>  
