@@ -25,7 +25,10 @@
         <div align="center">Link </div>
       </th>
       <th>
-        <div align='center'>action</div>
+        <div align='center'>Delete</div>
+      </th>
+      <th>
+        <div align='center'>Edit</div>
       </th>
     </tr>
     <?php
