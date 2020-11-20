@@ -28,5 +28,8 @@
     <input type="text" name = "link" id="idLink" placeholder="Enter Link" value="<?php echo $data['Link']; ?>"> <br><br>
     <input type="submit" id="commentBtn">
   </form>
+  <script>
+			   window.location.replace("show.php");
+		   </script>
 </body>
 </html>

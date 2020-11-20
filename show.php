@@ -70,7 +70,7 @@
     
   </table>-->
   
-  <button type="button" class="btn btn-link"><a href="form.html">Add user</a></button>
+  <button type="button" class="btn btn-dark"><a href="form.html">Add user</a></button>
 </body>
 
 </html>
