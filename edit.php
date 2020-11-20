@@ -18,7 +18,8 @@
 	<title>Comment Form</title>
 </head>
 <body>
-  <form action = "update.php" method = "post" id="CommentForm" >
+  <form action = "update.php" method = "post" >
+  <input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
     Name:<br>
     <input type="text" name = "name" id="idName" placeholder="Enter Name" value="<?php echo $data['Name']; ?>"> <br>
     Comment:<br>
