@@ -16,7 +16,8 @@
 </head>
 
 <body>
-  <div class="container">
+  <br><br>
+  <div class="container" >
     <table class="table">
     <thead class="thead-dark">
       <tr>
@@ -74,7 +75,6 @@ mysqli_close($conn);
     
   </table>-->
 
-<button type="button" class="btn btn-dark"><a href="form.html">Add user</a></button>
 </body>
 
 </html>
