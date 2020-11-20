@@ -16,7 +16,8 @@
 </head>
 
 <body>
-  <div class="container" <table class="table">
+  <div class="container">
+    <table class="table">
     <thead class="thead-dark">
       <tr>
         <th scope="col">Name</th>
