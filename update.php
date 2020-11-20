@@ -1,11 +1,12 @@
 <?php
 	$conn = mysqli_connect('sorachat.mysql.database.azure.com', 'ter2002@sorachat', 'Zazaza5789', 'ITFLab');
 
-	$Name = $_POST['Name'];
-	$Comment = $_POST['Comment'];
-	$Link = $_POST['Link'];
+	$name = $_POST['name'];
+	$comment = $_POST['comment'];
+	$link = $_POST['link'];
+	$id = $_POST['id'];
 
-	$sql = 'UPDATE guestbook SET Name = "'.$Name.'", Comment = "'.$Comment.'", Link = "'.$Link.'" WHERE ID = '.$id.'';
+	$sql = 'UPDATE guestbook SET Name = "'.$name.'", Comment = "'.$comment.'", Link = "'.$link.'" WHERE ID = '.$id.'';
 ?>
 <!DOCTYPE html>
 <html lang="en">
