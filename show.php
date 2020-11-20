@@ -37,6 +37,7 @@
         <td><?php echo $Result['Comment']; ?></td>
         <td><?php echo $Result['Link']; ?></td>
         <td><a href="delete.php?ID=<?php echo $Result['ID'];?>">Delete</a></td>
+        <td><a href="edit.php?ID=<?php echo $Result['ID'];?>">edit</a></td>
       </tr>
     <?php
     }
