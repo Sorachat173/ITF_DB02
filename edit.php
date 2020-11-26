@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect('sorachat.mysql.database.azure.com', 'ter2002@sorachat', 'Zazaza5789', 'ITFLab');
+	$conn = mysqli_connect('103.91.205.130', 'sorachat', 'CO22Xa6yXlaBST7Y', 'sorachat');
 
 	$id = $_GET['ID'];
 
