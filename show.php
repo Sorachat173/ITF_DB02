@@ -21,11 +21,9 @@
     <table class="table">
     <thead class="thead-dark">
       <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Comment</th>
-        <th scope="col">Link</th>
-        <th scope="col">Delete</th>
-        <th scope="col">Edit</th>
+        <th scope="col">A</th>
+        <th scope="col">B</th>
+        <th scope="col">C</th>
       </tr>
     </thead>
     <tbody>
@@ -39,7 +37,7 @@
   <td><?php echo $Result['Comment']; ?></td>
   <td><?php echo $Result['Link']; ?></td>
   <td><a href="delete.php?ID=<?php echo $Result['ID']; ?>">Delete</a></td>
-  <td><a href="edit.php?ID=<?php echo $Result['ID']; ?>">edit</a></td>
+
   </tr>
 <?php
       }
@@ -50,7 +48,7 @@ mysqli_close($conn);
 ?>
 </table>
 
-<center><a href="form.html" class="btn btn-dark">Add user</a></center>
+<center><a href="form.html" class="btn btn-dark">Add Number</a></center>
 </div>
 
 <!--
