@@ -1,7 +1,7 @@
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, '103.91.205.130', 'sorachat', 'CO22Xa6yXlaBST7Y', 'sorachat', 80);
+mysqli_real_connect($conn, '103.91.205.130', 'sorachat', 'CO22Xa6yXlaBST7Y', 'sorachat', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
