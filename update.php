@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect('ihost.it.kmitl.ac.th', 'it63070173_new02', 'Zazaza5789', 'it63070173_new02');
+	$conn = mysqli_connect('ihost.it.kmitl.ac.th', 'it63070173', 'Zazaza5789', 'it63070173_new02', 3306);
 
 	$name = $_POST['name'];
 	$comment = $_POST['comment'];

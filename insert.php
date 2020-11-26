@@ -1,7 +1,7 @@
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'ihost.it.kmitl.ac.th', 'it63070173_new02', 'Zazaza5789', 'it63070173_new02', 3306);
+mysqli_real_connect($conn, 'ihost.it.kmitl.ac.th', 'it63070173', 'Zazaza5789', 'it63070173_new02', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
